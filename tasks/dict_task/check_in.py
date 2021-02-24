@@ -22,7 +22,7 @@ from typing import Any
 USERS = {
     'hateSwimming': {
         'first_name': 'Tomy',
-        'last_name': 'Vervetti',
+        'last_name': 'Vercetti',
         'age': 35
     },
     'GroveGang': {
