@@ -8,7 +8,7 @@ from copy import deepcopy
 
 def del_by_index(collection: list, index: int) -> list:
     collection_copy = deepcopy(collection)
-    # TODO вставить код сюда
+    collection_copy.pop(2)
     return collection_copy
 
 

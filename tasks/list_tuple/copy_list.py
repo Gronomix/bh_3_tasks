@@ -9,7 +9,7 @@
 
 
 def copy_list(collection: list) -> list:
-    # TODO вставить код сюда
+    collection = list.copy(some_list)
     collection_copy = collection
     return collection_copy
 
