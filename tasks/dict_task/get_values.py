@@ -6,8 +6,8 @@
 
 
 def get_values(collection: dict):
-    # TODO вставить код сюда
-    result = None
+
+    result = dict.values({1: 100, 2: 200})
     return result
 
 

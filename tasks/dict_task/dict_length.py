@@ -12,18 +12,23 @@ products_num(PRODUCTS) -> 2
 PRODUCTS = {
     '112312': {
         'brand': 'Apple iPhone',
-        'model': '11'
+        'model': '11',
+        'lib': '15'
     },
     '774554': {
         'brand': 'Samsung',
         'model': 'Galaxy S10'
     },
+    '444555': {
+        '555': 'ggg'
+
+    },
 }
 
 
 def products_num(database: dict) -> int:
-    # TODO написать код ниже
-    result = None
+
+    result = len(PRODUCTS)
     return result
 
 

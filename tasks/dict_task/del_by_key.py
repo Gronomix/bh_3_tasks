@@ -29,7 +29,7 @@ users = {
 
 
 def del_user(users_dict: dict, login: Any) -> dict:
-    # TODO вставить код сюда
+    users.pop(d_user)
     return login
 
 
