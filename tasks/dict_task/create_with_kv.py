@@ -28,7 +28,7 @@ def save_user(users_list: dict, user_data: dict) -> dict:
     log = user_data.pop('login')
 
     users_list[log] = user_data
-    # TODO вставить код сюда
+    user_data.update(user)
     return users_list
 
 
