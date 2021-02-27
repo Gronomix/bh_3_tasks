@@ -9,6 +9,7 @@
 def common_elements(list_1: list, list_2) -> set:
     result = set()
     # TODO вставить код сюда
+
     return result
 
 

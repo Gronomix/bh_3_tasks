@@ -7,7 +7,7 @@
 
 def get_unique_in_list(some_list: list) -> set:
     # TODO вставить код сюда
-    result = some_list.update
+    result = some_list.update(list)
     return result
 
 
